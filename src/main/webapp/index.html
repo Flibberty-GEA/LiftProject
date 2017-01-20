@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+  </head>
+  <body data-lift-content-id="main">
+    <div id="main" data-lift="surround?with=default;at=content">
+      <h2>Welcome to your project!</h2>
+      <p>
+      	<span data-lift="HelloWorld.howdy">
+      	  Welcome to your Lift, <span id="time">Time goes here</span>
+      	</span>
+      </p>
+        <div>
+            <form lift="Snippet.form_elements">
+                <input id="textField" type="text"/>
+                <select id="selectField">
+                    <option>любовь</option>
+                    <option>деньги</option>
+                    <option>свобода</option>
+                </select>
+                <input id="hidden" type="hidden"/>
+                <input type="submit"/>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
